@@ -14,6 +14,8 @@
 		8D416AFC280997C0001D0437 /* CoreData_FrameWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D416AFA280997C0001D0437 /* CoreData_FrameWork.xcdatamodeld */; };
 		8D416AFE280997C2001D0437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D416AFD280997C2001D0437 /* Assets.xcassets */; };
 		8D416B01280997C2001D0437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D416AFF280997C2001D0437 /* LaunchScreen.storyboard */; };
+		8D416B0928099BC5001D0437 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D416B0828099BC5001D0437 /* TableViewCell.swift */; };
+		8D416B0B28099E42001D0437 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D416B0A28099E42001D0437 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8D416AFD280997C2001D0437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D416B00280997C2001D0437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D416B02280997C2001D0437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D416B0828099BC5001D0437 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8D416B0A28099E42001D0437 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				8D416AFF280997C2001D0437 /* LaunchScreen.storyboard */,
 				8D416B02280997C2001D0437 /* Info.plist */,
 				8D416AFA280997C0001D0437 /* CoreData_FrameWork.xcdatamodeld */,
+				8D416B0828099BC5001D0437 /* TableViewCell.swift */,
+				8D416B0A28099E42001D0437 /* Model.swift */,
 			);
 			path = CoreData_FrameWork;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D416B0928099BC5001D0437 /* TableViewCell.swift in Sources */,
 				8D416AF6280997C0001D0437 /* ViewController.swift in Sources */,
 				8D416AF2280997C0001D0437 /* AppDelegate.swift in Sources */,
+				8D416B0B28099E42001D0437 /* Model.swift in Sources */,
 				8D416AF4280997C0001D0437 /* SceneDelegate.swift in Sources */,
 				8D416AFC280997C0001D0437 /* CoreData_FrameWork.xcdatamodeld in Sources */,
 			);
